@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         let masterVC = MasterViewController()
-        masterVC.view.backgroundColor = .red
         window = UIWindow()
         window?.rootViewController = masterVC
         window?.makeKeyAndVisible()
